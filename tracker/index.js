@@ -77,7 +77,7 @@ import { removeTrailingSlash } from '../lib/url';
     }
 
     post(
-      `${root}/api/collect`,
+      `${root}/api/capture`,
       {
         type,
         payload,
